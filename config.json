@@ -1,0 +1,6 @@
+{
+  "app_name": "Obsidian",
+  "version_url": "https://api.github.com/repos/obsidianmd/obsidian-releases/releases/latest",
+  "version_pattern": "\"tag_name\":\\s*\"([^\"]+)\"",
+  "download_url_template": "https://github.com/obsidianmd/obsidian-releases/releases/download/v{version}/Obsidian-{version}.AppImage"
+}
