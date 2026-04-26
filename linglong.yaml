@@ -2,7 +2,7 @@ version: '1'
 package:
   id: md.obsidian
   name: obsidianmd
-  version: 1.12.7.0423
+  version: 1.0.2.0426
   kind: app
   description: 'Obsidian又名黑曜石笔记，是一个功能强大的双向链接笔记，在这里可以对笔记内容进行双链，从而让你的笔记不再是单独的一篇，让你的记录的内容可以相互连接起来，还可以在关系图谱中查看到详细的双链关系，让你可以将相关的信息联系起来。同时还是一个markdown编辑器，软件带相对路径跳转和额外插件，可以让你用户在文字上面添加更为丰富的内容，将重要且经常访问的注释添加为书签。并且可以录制语音备忘录，然后直接嵌入到笔记中。
 
@@ -48,6 +48,6 @@ build: |
   rm -rf squashfs-root
 sources:
 - kind: file
-  url: https://gh-proxy.org/https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7.AppImage
-  digest: f6d8b96fe685a8632c819cc093a248ace0f6bab410f44a6c929a2611b1ebb17c
+  url: https://gh-proxy.org/https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.2/Obsidian-1.0.2.AppImage
+  digest: 0bf84fedc51b19ea3b25e36429e4e033ad2a3794553f821a1c11c1429c1f5d5a
   name: Obsidian.AppImage
